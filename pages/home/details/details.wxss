@@ -1,0 +1,7 @@
+/* pages/home/details/details.wxss */
+@import '../list-tmpl/list-tmpl.wxss';
+.play image{
+
+  width:200rpx;
+  height:200rpx;
+}

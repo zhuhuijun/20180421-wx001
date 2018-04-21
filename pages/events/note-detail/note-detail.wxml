@@ -1,0 +1,15 @@
+<!--pages/events/note-detail/note-detail.wxml-->
+<view class='detail-container'>
+  <view >
+  <label>标题</label>
+  <input class='title' placeholder='请输入标题' bindinput='val1'></input>
+  </view>
+
+  <view >
+  <label>内容</label>
+  <textarea class='content' placeholder='请输入内容' bindinput='val2'></textarea>
+  </view>
+
+  <button type='primary' class='add' bindtap="savecontent">保存</button>
+</view>
+

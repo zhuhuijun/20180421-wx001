@@ -1,0 +1,7 @@
+<!--pages/welcome/weclome.wxml bindtap 冒泡 catchtap 不冒泡-->
+<view class='container'>
+<image class='avatar' src='/images/123.jpg' bindtap='bindToHome'></image>
+<text class='title'>OVE</text>
+<text class='content'>HELLO,WORLD</text>
+</view>
+

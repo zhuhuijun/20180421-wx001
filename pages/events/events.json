@@ -1,0 +1,6 @@
+{
+        "navigationBarTitleText": "EVENTS",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "dark",
+        "enablePullDownRefresh": true
+}

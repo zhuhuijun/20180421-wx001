@@ -1,0 +1,22 @@
+.list-container{
+  display: flex;
+  flex-direction: row;
+  margin: 10rpx 8rpx;
+  border-top:1px solid gray;
+  box-shadow:-1px 1px 2px gray,1px 1px 2px gray;
+  height:150rpx;
+}
+.list-container image{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.list-left,.list-right{
+  display: flex;
+  flex-direction: column;
+}
+.list-left{
+  width: 350rpx;
+  align-items: center;
+}

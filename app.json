@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/events/events",
+    "pages/events/note-detail/note-detail",    
+    "pages/home/home",
+
+    "pages/welcome/weclome",
+    "pages/home/details/details"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "WELCOME",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "/images/shouye.png",
+      "selectedIconPath": "/images/shouye.png"
+    },
+    {
+      "pagePath": "pages/events/events",
+      "text": "记事本",
+      "iconPath": "/images/bijiben.png",
+      "selectedIconPath": "/images/bijiben.png"
+    }]
+  }
+}

@@ -1,0 +1,22 @@
+/* pages/events/note-detail/note-detail.wxss */
+.detail-container label{
+    font-size: 40rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    display: block;
+    background: grey;
+    margin: 30rpx 0rpx;
+    border-radius: 2px;
+}
+.detail-container{
+  padding: 20rpx;
+}
+.title,.content{
+  border: 1px solid gray;
+}
+textarea{
+  width: 100%;
+}
+.add{
+  margin-top: 40rpx;
+}

@@ -1,0 +1,7 @@
+<!--pages/home/details/details.wxml-->
+<import src="../list-tmpl/list-tmpl.wxml"/>
+<template is="list" data="{{...num}}"/>
+<view class="play" bindtap="playmusic">
+  <image src='/images/start.png' wx:if="{{flag}}"/>
+  <image src='/images/stop.png' wx:else/>
+</view>
