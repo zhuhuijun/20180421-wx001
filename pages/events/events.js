@@ -102,6 +102,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    return {
+      title:'这是分享',
+      desc:'这是描述',
+      path:'http://www.baidu.com'
+    }
   }
 })

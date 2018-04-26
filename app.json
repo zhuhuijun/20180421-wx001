@@ -1,11 +1,13 @@
 {
   "pages": [
+    "pages/picker/picker",
     "pages/events/events",
     "pages/events/note-detail/note-detail",    
     "pages/home/home",
 
     "pages/welcome/weclome",
     "pages/home/details/details"
+
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
